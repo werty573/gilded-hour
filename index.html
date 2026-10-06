@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gilded Hour | Wedding & event planning, Trinidad and Tobago</title>
+<meta name="description" content="Weddings, receptions and proposals across Trinidad and Tobago. Concept site by Portside Digital.">
+<meta property="og:title" content="Gilded Hour">
+<meta property="og:image" content="img/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="brand" aria-label="Gilded Hour home">Gilded Hour</a>
+  <nav aria-label="Primary"><a href="#services">Services</a><a href="#process">How we plan</a><a href="#gallery">Gallery</a></nav>
+  <a href="#inquire" class="btn btn-solid">Plan your day</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-img"><img src="img/hero.jpg" alt="Silhouette of a couple dancing on the shoreline at sunset, reflected in wet sand" width="1800" height="1081"></div>
+    <div class="hero-copy">
+      <h1>Your day, <em>held beautifully.</em></h1>
+      <p>Weddings, receptions and proposals across Trinidad and Tobago, planned down to the last place card.</p>
+      <a href="#inquire" class="btn btn-solid">Plan your day</a>
+    </div>
+  </section>
+
+  <section class="statement" aria-label="About Gilded Hour">
+    <p class="words">We plan fewer than twenty weddings a year, so every couple gets our full attention, from the first venue visit to the very last dance.</p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>What we plan</h2>
+    <div class="strips">
+      <a class="strip" href="#inquire" data-type="Wedding"><img src="img/shore.jpg" alt="Bride and groom embracing on a pebble beach, her long veil on the stones" loading="lazy"><div><h3>Weddings</h3><p>Beach ceremonies to cathedral vows, with every vendor handled.</p></div></a>
+      <a class="strip" href="#inquire" data-type="Reception"><img src="img/reception.jpg" alt="Round reception tables set with glassware, candles and flowers" loading="lazy"><div><h3>Receptions</h3><p>Seating, lighting, menus and a run-sheet the DJ actually follows.</p></div></a>
+      <a class="strip" href="#inquire" data-type="Proposal"><img src="img/arch.jpg" alt="A wooden arch draped in white fabric and flowers on a beach" loading="lazy"><div><h3>Proposals</h3><p>A quiet beach at golden hour, and a photographer hidden nearby.</p></div></a>
+      <a class="strip" href="#inquire" data-type="Celebration"><img src="img/lights.jpg" alt="Warm string lights and white bunting glowing over an evening party" loading="lazy"><div><h3>Celebrations</h3><p>Anniversaries, vow renewals and milestone birthdays.</p></div></a>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <h2>How we plan</h2>
+    <div class="path-wrap">
+      <svg class="path" viewBox="0 0 200 1000" preserveAspectRatio="none" aria-hidden="true"><path d="M100 0 C 180 120, 20 250, 100 370 S 180 620, 100 740 S 20 900, 100 1000"/></svg>
+      <ol class="miles">
+        <li><span class="when">A year out</span><h3>Vision and venue</h3><p>We walk the venues with you and shape a budget that holds.</p></li>
+        <li><span class="when">Six months</span><h3>The right vendors</h3><p>Florist, caterer, band and photographer, chosen and contracted.</p></li>
+        <li><span class="when">One month</span><h3>The run-sheet</h3><p>Every minute of the day written down and shared with every vendor.</p></li>
+        <li><span class="when">The day</span><h3>You just show up</h3><p>We handle the timing, the weather and the aunties.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery" aria-label="Gallery">
+    <figure class="g g1"><img src="img/cake.jpg" alt="Four-tier white wedding cake topped with fresh berries and peonies" loading="lazy"></figure>
+    <figure class="g g2"><img src="img/florals.jpg" alt="Pink and white bouquet tied to a ceremony arch with draped fabric" loading="lazy"></figure>
+    <figure class="g g3"><img src="img/tableflowers.jpg" alt="Orange and white floral centrepiece among crystal glasses" loading="lazy"></figure>
+    <figure class="g g4"><img src="img/outdoor.jpg" alt="Long outdoor table set in white for an evening dinner" loading="lazy"></figure>
+  </section>
+
+  <section class="quote">
+    <blockquote>
+      <p>&ldquo;It rained for an hour before the ceremony. We never knew, because Gilded Hour had a plan for that too.&rdquo;</p>
+      <footer>Kezia and Darren<span>Married at Pigeon Point, Tobago</span></footer>
+    </blockquote>
+  </section>
+
+  <section class="inquire" id="inquire">
+    <form class="form" novalidate>
+      <h2>Tell us about your day</h2>
+      <div class="two">
+        <label>Your names<input name="names" placeholder="Kezia and Darren" required></label>
+        <label>WhatsApp or email<input name="contact" required></label>
+      </div>
+      <div class="two">
+        <label>Celebration<select name="type"><option>Wedding</option><option>Reception</option><option>Proposal</option><option>Celebration</option></select></label>
+        <label>Date (or best guess)<input name="date" type="date"></label>
+      </div>
+      <fieldset><legend>Island</legend>
+        <div class="seg"><label><input type="radio" name="island" value="Trinidad" checked><span>Trinidad</span></label><label><input type="radio" name="island" value="Tobago"><span>Tobago</span></label><label><input type="radio" name="island" value="Not sure"><span>Not sure yet</span></label></div>
+      </fieldset>
+      <div class="two">
+        <label>Guests<select name="guests"><option>Under 50</option><option selected>50 to 120</option><option>120 to 250</option><option>250+</option></select></label>
+        <label>Budget<select name="budget"><option>Still working it out</option><option>TT$60k to 120k</option><option>TT$120k to 250k</option><option>TT$250k+</option></select></label>
+      </div>
+      <p class="err" role="alert" hidden>We just need your names and a way to reach you.</p>
+      <button class="btn btn-solid btn-wide" type="submit">Plan your day</button>
+      <div class="done" hidden><i class="ph-light ph-envelope-open"></i><h3>Thank you</h3><p>On a live site this reaches the planner directly, and they reply within a day with a few dates for a first call.</p></div>
+    </form>
+  </section>
+</main>
+
+<footer class="foot"><p><b>Gilded Hour</b> is a fictional business. Concept site designed and built by Portside Digital. Photos from Unsplash.</p></footer>
+
+<a class="pd-ribbon" href="https://wa.me/18682591409?text=Hi%20Portside%20Digital%2C%20I%20saw%20the%20Gilded%20Hour%20demo%20and%20want%20a%20site%20like%20it." target="_blank" rel="noopener">Concept site by <b>Portside Digital</b>. Want one like this?</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
